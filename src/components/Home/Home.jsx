@@ -26,7 +26,7 @@ function Home() {
             })
               :
               <div className="col-12 text-center">
-                <h2 className='text-secondary text-center my-5 '>Nothing to show</h2>
+                {currentUser && <h2 className='text-secondary text-center my-5 '>Nothing to show</h2>}
               </div>
             }
           </div>

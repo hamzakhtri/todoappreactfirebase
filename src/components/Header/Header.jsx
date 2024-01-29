@@ -50,7 +50,7 @@ function Header() {
 
                                     currentUser ?
                                         <div className='text-center user-sec'>
-                                            <div className="dropdown">
+                                            <div className="dropdown dropend">
                                                 <button className="btn btn-primary fs-5 dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                                                     {currentUser.username}
                                                 </button>

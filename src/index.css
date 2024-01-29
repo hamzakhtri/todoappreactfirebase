@@ -70,7 +70,14 @@ button.swal2-confirm.swal2-styled {
 
 .todo-form {
   background: #c1c1c1;
-  padding: 20px;
+  padding: 20px 24%;
+}
+
+@media screen and (max-width: 991px) {
+  .todo-form {
+    background: #c1c1c1;
+    padding: 20px 10%;
+  }
 }
 
 header .user-sec button.btn {
@@ -85,6 +92,8 @@ header .user-sec button.btn {
 
 .user-sec .dropdown-menu-dark {
   background: transparent;
+  padding: 0px;
+  border: none;
 }
 
 .user-sec .dropdown-menu-dark li a {
