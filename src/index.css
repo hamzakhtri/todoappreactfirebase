@@ -1,13 +1,99 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button.swal2-confirm.swal2-styled {
+  background: #0d6efd;
+}
+
+/* auth screeen styling  */
+
+.auth-sec input.form-control {
+  border: none;
+  padding: 8px;
+  border-bottom: 1px solid #212529;
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+
+.auth-sec input.form-control:focus {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #212529;
+}
+
+.auth-btn button,
+.todo-form button.add-btn {
+  width: 100%;
+  border-radius: 0;
+  background: linear-gradient(#5c5c5c, #444444 50%, #202020 0, #000000);
+  transition: 0.5s;
+  border: 2px solid #212529;
+  color: #fff;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0px;
+  transition: 0.5s;
+  box-shadow: 1px 2px 0px 3px #000000b0;
+  border-radius: 50px;
+}
+
+.auth-btn button:hover,
+.todo-form button.add-btn:hover {
+  width: 100%;
+  border-radius: 0;
+  background: linear-gradient(#5c5c5c, #444444 50%, #202020 0, #000000);
+  transition: 0.5s;
+  border: 2px solid #212529;
+  color: #fff;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0px;
+}
+
+.todo-form button.update-btn {
+  width: 100%;
+  background: linear-gradient(#39bb60, #278042 50%, #216b37 0, #1b572d);
+  transition: 0.5s;
+  border: 2px solid #212529;
+  color: #fff;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0px;
+  transition: 0.5s;
+  box-shadow: 1px 2px 0px 3px #000000b0;
+  border-radius: 50px;
+}
+
+.auth-sec .container .row .card {
+  box-shadow: 2px 1px 36px 14px #00000052;
+}
+
+.todo-form {
+  background: #c1c1c1;
+  padding: 20px;
+}
+
+header .user-sec button.btn {
+  width: 100%;
+  background: linear-gradient(#39bb60, #278042 50%, #216b37 0, #1b572d);
+  transition: 0.5s;
+  border: 2px solid #212529;
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+.user-sec .dropdown-menu-dark {
+  background: transparent;
+}
+
+.user-sec .dropdown-menu-dark li a {
+  background: white;
+  color: #216b37;
+  margin-bottom: 5px;
+}
+
+.user-sec .dropdown-menu-dark li a:hover {
+  background: linear-gradient(#39bb60, #278042 50%, #216b37 0, #1b572d);
+  color: white;
 }

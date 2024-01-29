@@ -1,0 +1,16 @@
+@media screen and (max-width: 991px) {
+    header {
+        text-align: center;
+    }
+
+    header .row img {
+        margin-bottom: 32px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-btn .btn {
+        margin: 0 45px 10px 45px;
+    }
+}
